@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c> # Módulo de apapche
+# Activar rewrite
+RewriteEngine on 
+ErrorDocument 404 http://localhost/phpymysqlonline/proyecto-php-poo/error/index
+# que reescriba las reglas de escritura pero que no sea un directorio, ni un fichero
+RewriteCond %{SCRIPT_FILENAME} !-d 
+RewriteCond %{SCRIPT_FILENAME} !-f 
+
+RewriteRule ^(.*)/(.*) index.php?controller=$1&action=$2 
+# sustituye la primera parte de RewriteRule por el 
+# primer parámetro $1 y la segunda parte en $2
+</IfModule>
