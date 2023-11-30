@@ -2,3 +2,135 @@
 @use 'base/initial-reset.scss';
 @use 'config/variables.scss';
 @use 'blocks/body.scss';
+@use "blocks/header.scss";
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.toggle-menu {
+  position: absolute;
+  top: 1rem;
+  left: 20rem;
+  cursor: pointer;
+  width: 40px;
+}
+
+@media screen and (min-width: 600px) {
+  .toggle-menu {
+    display: none;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  @include responsive(laptop) {
+    flex-direction: row;
+    padding: 2rem 3rem;
+    color: #2c2830;
+    position: fixed;
+    width: calc(100% - 6rem);
+    top: 0;
+    left: 3rem;
+    background-color: #dddddd;
+    z-index: 100;
+    color: #dddddd;
+    background: #dddddd;
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: fondo-anim 20s infinite alternate;
+    background-color: #dddddd;
+  }
+  @keyframes fondo-anim {
+    0% {
+      background-position: left;
+    }
+    100% {
+      background-position: right;
+    }
+  }
+  &__start {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    @include responsive(laptop) {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      align-items: center;
+    }
+  }
+
+  &__name {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    color: var(--principal);
+    @include responsive(laptop) {
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 300;
+      padding-top: 0.5rem;
+    }
+  }
+
+  &__logo {
+    font-weight: 900;
+    font-size: 2rem;
+    color: var(--principal);
+    @include responsive(laptop) {
+      cursor: pointer;
+      font-weight: 900;
+      font-size: 2rem;
+    }
+  }
+}
+
+.main-menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0rem;
+  font-weight: bold;
+  height: 415px;
+  background-color: #bebebe;
+  margin: 4rem;
+  @include responsive(laptop) {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 2rem;
+    font-weight: normal;
+    margin: 0rem;
+    background-color: transparent;
+    height: 50px;
+    top: 1rem;
+  }
+}
+
+.main-menu-item {
+  font-size: 1.1rem;
+  color: var(--principal);
+  padding: 1rem;
+  margin-top: 2.5rem;
+  @include responsive(laptop) {
+    font-size: 1rem;
+    line-height: 1rem;
+    padding: 0;
+    margin-top: 0.5;
+    margin: 0;
+    border-bottom: 1.5px solid #2c2830;
+  }
+}
