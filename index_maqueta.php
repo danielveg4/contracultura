@@ -15,39 +15,53 @@
   </head>
 	<body>
 		<div id="container">
-			<!-- CABECERA -->
+			<!-- CABECERA -->>
 			<header class="header">
-				<div class="header__menu" id="toggle-menu">
-					<img src="assets/img/hamburger.png" alt="" />
-					<div class="magicbox"></div>
-				</div>
-				<div id="main-nav" class="main-nav" style="display: none;">
-					<ul class="main-menu">
-						<li class="main-menu-item">
-							<a href="#articulos" class="main-menu-link">Artículos</a>
-						</li>
-						<li class="main-menu-item">
-							<a href="#colleciones" class="main-menu-link">Colecciones</a>
-						</li>
-						<li class="main-menu-item">
-							<a href="#tienda" class="main-menu-link">Tienda</a>
-						</li>
-						<li class="main-menu-item">
-							<a href="#contact" class="main-menu-link">Contacta</a>
-						</li>
-					</ul>
-				</div>
+        		<div class="menu__wrapper">
+					<div class="menu__bar">
+						<img class="menu-icon" src="assets/img/burger-menu.svg" title='Burger Menu' alt='Burger Menu'
+						onclick="toggleMenu(this)">
+						<ul class="navigation">
+							<li>
+								<a href="#services" title="Services">
+								Artículos
+								</a>
+							</li>
+							<li>
+								<a href="#blog" title="Blog">
+								Colecciones
+								</a>
+							</li>
+							<li>
+								<a href="#about" title="About">
+								Tienda
+								</a>
+							</li>
+						</ul>
+					</div>
+    			</div>
 				<div class="header__start">
 					<h1 class="header__name">contracultura.cc</h1>
 				</div>
 				<div class="header__logos">
+					<img src="assets/img/contracultura.png" alt="" />
 					<img src="assets/img/lupa.png" alt="" />
-					<img src="assets/img/carrito.png" alt="" />
-					<img src="assets/img/user.png" alt="" />
+					<img class="user-icon" src="assets/img/user.png" alt="" id="userIcon" />
+					<ul class="submenu" id="submenu">
+						<li>
+							<a href="#login" title="login">Iniciar sesión</a>
+						</li>
+						<li>
+							<a href="#buy" title="buy">Carrito</a>
+						</li>
+					</ul>
 				</div>
     		</header>
+			<div class="header__up">
+				<h1 class="header__up-name">contracultura.cc</h1>
+			</div>
 
-			<!-- CONTENIDO CENTRAL -->
+			<!--  CONTENIDO CENTRAL -->
 			<div class="principal" id="central">
 				<div class=principal__news>
 					<div class="article">
@@ -124,100 +138,57 @@
 				</div>
 				<div class="principal__collections">
 					<div class="principal__collections__title">
-						<h2>Artículos</h2>
+						<h2>Colecciones</h2>
 					</div>
 					<div class="principal__collections__container">
 						<div class="collection">
 							<div class="collection__text">
 								<h3>Marx XXI</h3>
 							</div>
-							<div class="collection__img" src=""></div>
+							<img class="collection__img" src="assets/img/marx1.jpg">
 						</div>
 						<div class="collection">
+							<img class="collection__img" src="assets/img/coyuntura.jpg">
 							<div class="collection__text">
 								<h3>Cuadernos de Coyuntura</h3>
 							</div>
-							<div class="collection__img" src=""></div>
 						</div>
 						<div class="collection">
 							<div class="collection__text">
 								<h3>Ecología</h3>
 							</div>
-							<div class="collection__img" src=""></div>
+							<img class="collection__img" src="assets/img/ecologia.png">
 						</div>
-						
-
-					</div>
-					<div class="principal__collections__more">
-						<h2>Leer más</h2>
 					</div>
 				</div>
-
-
-
-
-
-
-
-				<div class="principal__collections"></div>
-			</div>
-
-			<!-- MENU -->
-			<nav id="menu">
-				<ul>
-					<li>
-						<a href="#">Inicio</a>
-					</li>
-					<li>
-						<a href="#">Categoria 1</a>
-					</li>
-					<li>
-						<a href="#">Categoria 2</a>
-					</li>
-					<li>
-						<a href="#">Categoria 3</a>
-					</li>
-					<li>
-						<a href="#">Categoria 4</a>
-					</li>
-					<li>
-						<a href="#">Categoria 5</a>
-					</li>
-				</ul>
-			</nav>
-
-			<div id="content">
-
-				<!-- BARRA LATERAL -->
-				<aside id="lateral">
-
-					<div id="login" class="block_aside">
-						<h3>Entrar a la web</h3>
-						<form action="#" method="post">
-							<label for="email">Email</label>
-							<input type="email" name="email" />
-							<label for="password">Contraseña</label>
-							<input type="password" name="password" />
-							<input type="submit" value="Enviar" />
-						</form>
-						
-						<ul>
-							<li><a href="#">Mis pedidos</a></li>
-							<li><a href="#">Gestionar pedidos</a></li>
-							<li><a href="#">Gestionar categorias</a></li>
-						</ul>
-					</div>
-
-				</aside>
-
-
 			</div>
 
 			<!-- PIE DE PÁGINA -->
-			<footer id="footer">
-				<p>Desarrollo de clase &copy; <?= date('Y') ?></p>
+			<footer class="footer" id="footer">
+				<div class="footer__about">
+						<h3>Sobre nosotrxs</h2>
+						<div class="footer__redes">
+							<a href=""><img src="assets/img/twitter.png" alt=""></a>
+							<a href=""><img src="assets/img/instagram.png" alt=""></a>
+							<a href=""><img src="assets/img/youtube.png" alt=""></a>
+						</div>
+				</div>
+				<div class="footer__line"></div>
+				<div class="footer__text">
+					<p>Contracultura es..........................blablablao que puede leerse a continuación es la traducción de una breve reseña que Karl Kautsky publicara en Die Neue Zeit allá por 1885. Leerlo es una cuestión que apela, no tanto al imperativo de evaluar su figura con magnanimidad -una que podrá despertar la simpatía de unos y el odio fulgurante de otros-, sino, más bien, al rigor que se le presupone a cualquiera que se inmiscuya en el legado intelectual de una tradición de la que nos reconocemos herederos.</p>
+				</div>
+				<div class="footer__us">
+					<h3>Consejo editorial</h3>
+					<h3>Contacto</h3>
+					<h3>Colabora</h3>
+					<h3>Tienda online</h3>
+					<h3>Librerias colaboradoras</h3>
+				</div>
+				<div class="footer__final">				
+				<p class="footer__name">En Contracultura creemos en el libro flujo de la información. Puede republicar nuestros artículos libremente, de manera impresa o digital, bajo la licencia Creative Commons.</p>
+				</div>
 			</footer>
 		</div>
-		<script type="module" src="./js/index.js"></script>
+		<script src="js/index.js"></script>
 	</body>
 </html>
