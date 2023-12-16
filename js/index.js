@@ -38,4 +38,23 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
+
+  // animacion contacto
+
+const handleMouseMove = event => {
+        const eyes = document.getElementsByClassName('eye')
+        for (let eye of eyes) {
+               const x = eye.getBoundingClientRect().left + 10;
+               const y = eye.getBoundingClientRect().top + 10;
+               const rad = Math.atan2(event.pageX - x, event.pageY - y);
+               const rot = (rad * (180 / Math.PI) * -1) + 180;
+        
+               eye.style.transform = `rotate(${rot}deg)`;
+            }
+}
+
+document.addEventListener("mousemove", event => handleMouseMove(event))
+
+document.getElementById('submit').addEventListener("mouseover", event => document.getElementById('ball').classList.toggle('look_at'))
+document.getElementById('submit').addEventListener("mouseout", event => document.getElementById('ball').classList.toggle('look_at'))
   

@@ -15,16 +15,17 @@ CONSTRAINT uq_email UNIQUE(email)
 
 INSERT INTO usuarios VALUES(NULL, 'Admin', 'Admin', 'admin@admin.com', 'contraseña', 'admin', null);
 
-CREATE TABLE categorias(
+CREATE TABLE articulos(
 id              int(255) auto_increment not null,
-nombre          varchar(100) not null,
-CONSTRAINT pk_categorias PRIMARY KEY(id) 
+titulo          varchar(100) not null,
+texto       varchar(255),
+autor           varchar(255) not null,
+CONSTRAINT pk_articulos PRIMARY KEY(id) 
 )ENGINE=InnoDb;
 
-INSERT INTO categorias VALUES(null, 'Gorra beisbol');
-INSERT INTO categorias VALUES(null, 'Gorra Tenis');
-INSERT INTO categorias VALUES(null, 'Gorra niños');
-INSERT INTO categorias VALUES(null, 'Gorra niña');
+INSERT INTO articulos VALUES(null, 'Kautsky, el socialismo y la teoría del valor (comentario)', 'Lo que puede leerse a continuación es la traducción deuna breve reseña que Karl Kautsky publicara en Die Neue Zeit allá por 1885. Leerlo es una cuestión que apela, no tanto al imperativo de evaluarsu figura con magnanimidad una que podrá despertar las impatía de unos y el odio fulgurante de otros, sino, más bien, al rigor que se le presupone a quien se inmiscuya en el legado intelectual de una tradición de la que nos reconocemos herederos', 'Álex Fernández');
+
+
 
 CREATE TABLE productos(
 id              int(255) auto_increment not null,

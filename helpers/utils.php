@@ -17,7 +17,7 @@ class Utils{
 	
 	public static function isAdmin(){ // comprobamos si existe esa sesión de administrador y en caso de que no exista
 		// realizo una redirección para que me lleve al index de la página.
-		if(isset($_SESSION['admin'])){
+		if(!isset($_SESSION['admin'])){
 			header("Location:".base_url);
 		}else{
 			return true; // si no existe devuelve true, esta función la puedo utilizar si necesito saber si es administrador
@@ -32,13 +32,11 @@ class Utils{
 			return true;
 		}
 	}
-	public static function showCategorias(){ // función que se va a invocar cada vez que se quieran visualizar
-		// todas las categorias del proyeto hacemos el require del modelo para poder utilizarlo
-		// y devolvemos las categorias
-		require_once 'models/categoria.php';
-		$categoria = new Categoria();
-		$categorias = $categoria->getAll(); // llamada al método del modelo
-		return $categorias;
+	public static function showArticulos(){ 
+		require_once 'models/articulo.php';
+		$articulo = new Categoria();
+		$articulos = $articulo->getAll();
+		return $articulos;
 	}
 	
 	public static function statsCarrito(){ // inicializar carrito
