@@ -28,7 +28,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="paginas/index_nosotrxs.php" title="Collections">
+								<a href="index_nosotrxs.php" title="Collections">
 								Consejo editorial
 								</a>
 							</li>
@@ -72,33 +72,50 @@
 			</div>
 
 			<!--  CONTENIDO CENTRAL -->
-            <div class="colleciones__principal">
-                <h1 class="colecciones__principal__title">Colecciones</h1>
-            </div>
-            <div class="principal" id="central">
-				<div class="principal__collections">
-					<div class="principal__collections__container">
-						<div class="collection">
-							<div class="collection__text">
-								<h3>Marx XXI</h3>
+			<div class="shop__principal">
+                <div class="tienda__collection">
+					<div class="shop__collection-container">
+						<div class="collection-white">
+							<div class="collection__text-white">
+								<a class="collection__link-white" href="index_shop.php">Marx XXI</a>
 							</div>
 							<img class="collection__img" src="../assets/img/marx1.jpg">
 						</div>
-						<div class="collection">
-							<img class="collection__img" src="../assets/img/coyuntura.jpg">
-							<div class="collection__text">
-								<h3>Cuadernos de Coyuntura</h3>
-							</div>
+						<div class="shop__collection-details">
+							<div class="shop__collection-description">En un momento histórico de tremendas y rapidísimas transformaciones, donde nuestra realidad social es cada vez más compleja, los cambios a los que esta se ve sometida más precipitados y profundos y los fenómenos a los que nuestras vidas se ven expuestas son más difíciles de comprender, ¿qué sentido tiene hoy seguir a vueltas con el marxismo? Un marxismo para el siglo XXI nace con la intención de responder a esta pregunta —y esperemos a otras tantas más— afrontando los grandes debates presentes en nuestra actualidad, con la pretensión principal de volver a situar el marxismo como la verdad alternativa de nuestro presente y futuro en un momento en el que la clase trabajadora de todo el planeta parece no contar ya con verdad alternativa alguna con la que enfrentar la totalitaria verdad capitalista.</div>
+							<div class="shop__collection-price">7 euros / unidad</div>
+							<div class="shop__collection-button">Resérvalo aquí</div>
 						</div>
-						<div class="collection">
-							<div class="collection__text">
-								<h3>Ecología</h3>
+					</div>
+					<div class="shop__collection-container">
+						<div class="collection-white">
+							<div class="collection__text-white">
+								<a class="collection__link-white" href="index_shop.php">Cuadernos de Coyuntura</a>
+							</div>
+							<img class="collection__img" src="../assets/img/coyuntura.jpg">
+						</div>
+						<div class="shop__collection-details">
+							<div class="shop__collection-description">Desde que el régimen del dinero se impusiera a sangre y fuego, el carácter cíclico de la producción capitalista y sus crisis han marcado, de forma abrupta, el devenir de la historia de la lucha de clases. Lo que aquí nos interesa es afirmar que las causas de las crisis económicas se encuentran definidas en la propia economía, que no es otra cosa que el movimiento social. Sociedad y economía constituyen, en este sentido, una unidad. Estudiar la sociedad es estudiar la economía, y viceversa. Por lo tanto, si las razones de las crisis son económicas, también son sociales, a pesar de que a primera vista tan solo parezcan técnicas. Esta es la principal diferencia entre el método de la economía burguesa y el marxismo: la capacidad del segundo de captar la interdependencia de todos los elementos de la economía, esto es, de entender la sociedad como totalidad.</div>
+							<div class="shop__collection-price">8 euros / unidad</div>
+							<div class="shop__collection-button">Resérvalo aquí</div>
+						</div>
+					</div>
+					<div class="shop__collection-container">
+						<div class="collection-white">
+							<div class="collection__text-white">
+								<a class="collection__link-white" href="index_shop.php">Ecología</a>
 							</div>
 							<img class="collection__img" src="../assets/img/ecologia.png">
 						</div>
+						<div class="shop__collection-details">
+							<div class="shop__collection-description">Nos hallamos ante un aumento generalizado de los precios de los combustibles y, como consecuencia, de los alimentos. A julio de 2022 en el Estado español la inflación ya supera los dos dígitos. Todos los días lo sufrimos en nuestras carnes y nos lo recuerdan en los telediarios. En el centro global, el aumento de precios se traducirá en pérdidas de poder adquisitivo; se traducirá también en caras de pánico y aspavientos al oír cómo pronuncia el importe de la compra semanal el cajero del supermercado, al ver la última factura de la luz y al llenar el depósito de gasolina. Los proletarios tendremos que hacer aún más malabarismos para conseguir llegar a fin de mes, contando cada euro y cada céntimo, cada billete y cada moneda. Euros y céntimos que cuesta lo mismo ganar, pero que van perdiendo su valor ante nuestra impotencia. </div>
+							<div class="shop__collection-price">8 euros / unidad</div>
+							<div class="shop__collection-button">Resérvalo aquí</div>
+						</div>
 					</div>
-				</div>
-			</div>
+                </div>
+            </div>
+
 
 			<!-- PIE DE PÁGINA -->
 			<footer class="footer" id="footer">
@@ -126,6 +143,6 @@
 				</div>
 			</footer>
 		</div>
-		<script src="js/index.js"></script>
+		<script src="..\js\index.js"></script>
 	</body>
 </html>

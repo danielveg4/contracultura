@@ -19,7 +19,6 @@ class pedidoController{
 			$coste = $stats['total'];
 				
 			if($provincia && $localidad && $direccion){
-				// Guardar datos en bd
 				$pedido = new Pedido();
 				$pedido->setUsuario_id($usuario_id);
 				$pedido->setProvincia($provincia);
@@ -29,7 +28,6 @@ class pedidoController{
 				
 				$save = $pedido->save();
 				
-				// Guardar linea pedido
 				$save_linea = $pedido->save_linea();
 				
 				if($save && $save_linea){
@@ -44,7 +42,6 @@ class pedidoController{
 			
 			header("Location:".base_url.'pedido/confirmado');			
 		}else{
-			// Redigir al index
 			header("Location:".base_url);
 		}
 	}
@@ -68,7 +65,6 @@ class pedidoController{
 		$usuario_id = $_SESSION['identity']->id;
 		$pedido = new Pedido();
 		
-		// Sacar los pedidos del usuario
 		$pedido->setUsuario_id($usuario_id);
 		$pedidos = $pedido->getAllByUser();
 		
@@ -81,12 +77,10 @@ class pedidoController{
 		if(isset($_GET['id'])){
 			$id = $_GET['id'];
 			
-			// Sacar el pedido
 			$pedido = new Pedido();
 			$pedido->setId($id);
 			$pedido = $pedido->getOne();
 			
-			// Sacar los poductos
 			$pedido_productos = new Pedido();
 			$productos = $pedido_productos->getProductosByPedido($id);
 			
@@ -109,11 +103,9 @@ class pedidoController{
 	public function estado(){
 		Utils::isAdmin();
 		if(isset($_POST['pedido_id']) && isset($_POST['estado'])){
-			// Recoger datos form
 			$id = $_POST['pedido_id'];
 			$estado = $_POST['estado'];
 			
-			// Upadate del pedido
 			$pedido = new Pedido();
 			$pedido->setId($id);
 			$pedido->setEstado($estado);

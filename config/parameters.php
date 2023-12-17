@@ -2,7 +2,7 @@
 
 //creación de constantes que vamos a utilizar a lo largo del proyecto
 // base_url para realizar llamadas absolutas a lo largo del proyecto.
-define("base_url", "C:\Users\34633\Desktop\contracultura\proyecto-php-poo");
+define("base_url", "http://localhost/cc/");
 // Establecemos el controlador por defecto
 define("controller_default", "productoController");
 //El método por defecto y la acción por defecto.

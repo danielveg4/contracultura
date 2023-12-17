@@ -1,8 +1,6 @@
 <?php if (isset($_SESSION['pedido']) && $_SESSION['pedido'] == 'complete'): ?>
 	<h1>Tu pedido se ha confirmado</h1>
-	<p>
-		Tu pedido ha sido guardado correctamente, una vez realices la transferencia
-		bancaria a la cuenta XX-XXXXXXXX-XXXXXX con el importe del pedido, será procesado y enviado.
+	<p> Tu pedido ha sido guardado correctamente, puedes pasar a recogerlo por tu librería más cercana!
 	</p>
 	<br/>
 	<?php if (isset($pedido)): ?>
@@ -20,14 +18,7 @@
 				<th>Unidades</th>
 			</tr>
 			<?php while ($producto = $productos->fetch_object()): ?>
-				<tr>
-					<td>
-						<?php if ($producto->imagen != null): ?>
-							<img src="<?= base_url ?>uploads/images/<?= $producto->imagen ?>" class="img_carrito" />
-						<?php else: ?>
-							<img src="<?= base_url ?>assets/img/gorra.png" class="img_carrito" />
-						<?php endif; ?>
-					</td>
+				<tr>>
 					<td>
 						<a href="<?= base_url ?>producto/ver&id=<?= $producto->id ?>"><?= $producto->nombre ?></a>
 					</td>

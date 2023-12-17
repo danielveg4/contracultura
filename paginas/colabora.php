@@ -97,9 +97,9 @@
 				<div class="footer__about">
 						<h3>Sobre nosotrxs</h2>
 						<div class="footer__redes">
-							<a href=""><img src="../assets/img/twitter.png" alt=""></a>
-							<a href=""><img src="../assets/img/instagram.png" alt=""></a>
-							<a href=""><img src="../assets/img/youtube.png" alt=""></a>
+							<a href="https://twitter.com/ctrcultura"><img src="../assets/img/twitter.png" alt=""></a>
+							<a href="https://www.instagram.com/ctrcultura/"><img src="../assets/img/instagram.png" alt=""></a>
+							<a href="https://www.youtube.com/channel/UCn5WOCIpPjfzHLxYlhw1aeg"><img src="../assets/img/youtube.png" alt=""></a>
 						</div>
 				</div>
 				<div class="footer__line"></div>

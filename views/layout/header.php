@@ -14,7 +14,7 @@
     <title>contracultura.cc</title>
   </head>
 	<body>
-		<div id="container">
+		
 			<!-- CABECERA -->>
 			<header class="header">
         		<div class="menu__wrapper">
@@ -23,17 +23,17 @@
 						onclick="toggleMenu(this)">
 						<ul class="navigation">
 							<li>
-								<a href="<?=base_url?>/articles" title="Articles">
+								<a href="<?=base_url?>paginas/index_articulos.php" title="Articles">
 								Artículos
 								</a>
 							</li>
 							<li>
-								<a href="paginas/index_nosotrxs.php" title="Collections">
+								<a href="<?=base_url?>paginas/index_nosotrxs.php" title="us">
 								Consejo editorial
 								</a>
 							</li>
 							<li>
-								<a href="<?=base_url?>/shop" title="Shop">
+								<a href="<?=base_url?>paginas/index_tienda.php" title="tienda">
 								Tienda
 								</a>
 							</li>
@@ -45,33 +45,41 @@
 				</div>
 				<div class="header__logos">
 					<img src="<?=base_url?>assets/img/contracultura.png" alt="" />
-					<img src="<?=base_url?>assets/img/lupa.png" alt="" />
+					<div class="box">
+						<input
+							class="search"
+							placeholder=" "
+							spellcheck="false"
+						>
+					</div>
 					<img class="user-icon" src="<?=base_url?>assets/img/user.png" alt="" id="userIcon" />
 					<ul class="submenu" id="submenu">
-						<?php if(!isset($_SESSION['identity'])): ?> 
-							<form class="submenu__login" action="#" method="post">
-							<label for="email">Email</label>
-							<input type="email" name="email" />
-							<label for="password">Contraseña</label>
-							<input type="password" name="password" />
-							<input class="button__enviar" type="submit" value="Login" />
-							</form>
-						<?php else: ?>
-							<h3><?=$_SESSION['identity']->nombre?> <?=$_SESSION['identity']->apellidos?></h3>
-						<?php endif; ?>
-						<ul> 
-							<?php if(isset($_SESSION['admin'])):?>				
-								<li><a href="<?=base_url?>articulo/index">Gestionar artículos</a></li>
-								<li><a href="<?=base_url?>producto/gestion">Gestionar productos</a></li>
-								<li><a href="<?=base_url?>pedido/gestion">Gestionar pedidos</a></li>
-							<?php endif; ?>			
-							<?php if(isset($_SESSION['identity'])): ?> 
-								<li><a href="<?=base_url?>pedido/mis_pedidos">Mis pedidos</a></li>
-								<li><a href="<?=base_url?>usuario/logout">Cerrar sesión</a></li> 
-							<?php else: ?> 
-								<li><a href="<?=base_url?>usuario/registro">Registrate aqui</a></li>
-							<?php endif; ?> 
-						</ul>
+						<div id="login" class="block_central">
+							<?php if(!isset($_SESSION['identity'])): ?> 
+								<form class="submenu__login" action="<?= base_url ?>usuario/login" method="post">
+									<label for="email">Email</label>
+									<input type="email" name="email" />
+									<label for="password">Contraseña</label>
+									<input type="password" name="password" />
+									<input class="button__enviar" type="submit" value="Login" />
+								</form>
+							<?php else: ?>
+								<h3><?=$_SESSION['identity']->email?></h3>
+							<?php endif; ?>
+							<ul> 
+								<?php if(isset($_SESSION['admin'])):?>				
+									<li><a href="<?=base_url?>Producto/gestion">Gestionar productos</a></li>
+									<li><a href="<?=base_url?>Pedido/gestion">Gestionar pedidos</a></li>
+									<li><a href="<?=base_url?>usuario/logout">Cerrar sesión</a></li>
+								<?php endif; ?>			
+								<?php if(isset($_SESSION['identity'])): ?> 
+									<a href="<?=base_url?>views/carrito.php">Ver Carrito</a>
+									<li><a href="<?=base_url?>usuario/logout">Cerrar sesión</a></li> 
+								<?php else: ?> 
+									<li><a href="<?= base_url ?>usuario/registro">Regístrate aquí</a></li>
+								<?php endif; ?> 
+							</ul>
+						</div>
 					</ul> 
 				</div>
 

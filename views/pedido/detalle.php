@@ -37,13 +37,6 @@
 			<?php while ($producto = $productos->fetch_object()): ?>
 				<tr>
 					<td>
-						<?php if ($producto->imagen != null): ?>
-							<img src="<?= base_url ?>uploads/images/<?= $producto->imagen ?>" class="img_carrito" />
-						<?php else: ?>
-							<img src="<?= base_url ?>assets/img/gorra.png" class="img_carrito" />
-						<?php endif; ?>
-					</td>
-					<td>
 						<a href="<?= base_url ?>producto/ver&id=<?= $producto->id ?>"><?= $producto->nombre ?></a>
 					</td>
 					<td>

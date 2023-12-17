@@ -14,8 +14,7 @@
     <title>contracultura.cc</title>
   </head>
 	<body>
-		<div id="container">
-			<!-- CABECERA -->>
+			<!-- CABECERA -->
 			<header id="header" class="header">
         		<div class="menu__wrapper">
 					<div class="menu__bar">
@@ -54,17 +53,18 @@
 					</div>
 					<img class="user-icon" src="assets/img/user.png" alt="" id="userIcon" />
 					<ul class="submenu" id="submenu">
-						<form class="submenu__login" action="#" method="post">
-							<label for="email">Email</label>
-							<input type="email" name="email" />
-							<label for="password">Contraseña</label>
-							<input type="password" name="password" />
-							<input class="button__enviar" type="submit" value="Login" />
-
-						</form>
-						<ul class="submenu__pedidos">
-							<li><a href="#">Mis pedidos</a></li>
-						</ul>
+						<div id="login" class="block_central">
+							<form class="submenu__login" action="#" method="post">
+								<label for="email">Email</label>
+								<input type="email" name="email" />
+								<label for="password">Contraseña</label>
+								<input type="password" name="password" />
+								<input class="button__enviar" type="submit" value="Login" />
+							</form>
+							<ul class="submenu__pedidos">
+								<li><a href="#">Mis pedidos</a></li>
+							</ul>
+						</div>
 					</ul>
 				</div>
     		</header>
@@ -96,7 +96,6 @@
 						<div class="article__info">
 							<a class="article__link" href="paginas/art-meiksinswood.php">La separación entre economía y política en Ellen Meiksins Wood</a>
 							<p>Ellen Meiksins Wood fue una de las pensadoras marxistas más importantes de su generación. Desde los años setenta hasta su muerte la autora desarrolló una obra polifacética. Su punto de partida fue la teoría política, aunque nunca se atuvo a los límites tradicionales que esta disciplina le impuso, sino que la desbordó y accedió a la sociología histórica. Pese a todo, su proyecto teórico mantuvo siempre una sorprendente coherencia.</p>
-
 							<h4 class="autor">Javier Moreno Zacarés</h4>
 						</div>
 					</div>	
@@ -180,11 +179,11 @@
 			<!-- PIE DE PÁGINA -->
 			<footer class="footer" id="footer">
 				<div class="footer__about">
-						<a href="paginas/index_nosotrxs.php" class="footer__nosotrxs">Sobre nosotrxs</a>
+						<div class="footer__nosotrxs">Sobre nosotrxs</div>
 						<div class="footer__redes">
-							<a href=""><img src="assets/img/twitter.png" alt=""></a>
-							<a href=""><img src="assets/img/instagram.png" alt=""></a>
-							<a href=""><img src="assets/img/youtube.png" alt=""></a>
+							<a href="https://twitter.com/ctrcultura"><img src="assets/img/twitter.png" alt=""></a>
+							<a href="https://www.instagram.com/ctrcultura/"><img src="assets/img/instagram.png" alt=""></a>
+							<a href="https://www.youtube.com/channel/UCn5WOCIpPjfzHLxYlhw1aeg"><img src="assets/img/youtube.png" alt=""></a>
 						</div>
 				</div>
 				<div class="footer__line"></div>
@@ -202,7 +201,6 @@
 				<p class="footer__name">En Contracultura creemos en el libro flujo de la información. Puede republicar nuestros artículos libremente, de manera impresa o digital, bajo la licencia Creative Commons. &copy; <?= date('Y') ?></p>
 				</div>
 			</footer>
-		</div>
 		<script src="js/index.js"></script>
 	</body>
 </html>
