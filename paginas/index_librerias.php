@@ -28,7 +28,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="index_nosotrxs.php" title="Collections">
+								<a href="paginas/index_nosotrxs.php" title="Collections">
 								Consejo editorial
 								</a>
 							</li>
@@ -72,25 +72,72 @@
 			</div>
 
 			<!--  CONTENIDO CENTRAL -->
-			<div class="colabora__principal">
-                <div class="colabora__principal__title">
-                    <h1>Colabora con nosotrxs</h1>
+            <div class="principal" id="central">
+                <div class="librerias__container">
+                    <div class="librerias__container__text">
+                        <h2 class="librerias__container__text__title">Librerías colaboradoras</h2>
+                        <p class="librerias__container__text__paragraph">Contamos con una comunidad de librerias asociadas en las que podrás recoger tus pedidos, sin coste adicional alguno.</p>                    
+                        <p class="librerias__container__text__paragraph">Si te encuentras en la misma provincia que alguna de las siguiente librerías, mandaremos tu pedido directamente a la que prefieras de ellas y podrás recogerlo ahí.</p>   
+                    </div>
+                    <ul class="librerias__list">
+                        <li>
+                            <strong>Librería A</strong><br>
+                            Dirección: Calle A, 123<br>
+                            Provincia: Ciudad A
+                        </li>
+                        <li>
+                            <strong>Librería B</strong><br>
+                            Dirección: Calle B, 456<br>
+                            Provincia: Ciudad B
+                        </li>
+                        <li>
+                            <strong>Librería C</strong><br>
+                            Dirección: Calle C, 789<br>
+                            Provincia: Ciudad C
+                        </li>
+                        <li>
+                            <strong>Librería D</strong><br>
+                            Dirección: Calle D, 012<br>
+                            Provincia: Ciudad D
+                        </li>
+                        <li>
+                            <strong>Librería E</strong><br>
+                            Dirección: Calle E, 345<br>
+                            Provincia: Ciudad E
+                        </li>
+                        <li>
+                            <strong>Librería F</strong><br>
+                            Dirección: Calle F, 678<br>
+                            Provincia: Ciudad F
+                        </li>
+                        <li>
+                            <strong>Librería G</strong><br>
+                            Dirección: Calle G, 901<br>
+                            Provincia: Ciudad G
+                        </li>
+                        <li>
+                            <strong>Librería H</strong><br>
+                            Dirección: Calle H, 234<br>
+                            Provincia: Ciudad H
+                        </li>
+                        <li>
+                            <strong>Librería I</strong><br>
+                            Dirección: Calle I, 567<br>
+                            Provincia: Ciudad I
+                        </li>
+                        <li>
+                            <strong>Librería J</strong><br>
+                            Dirección: Calle J, 890<br>
+                            Provincia: Ciudad J
+                        </li>
+                        <li>
+                            <strong>Librería K</strong><br>
+                            Dirección: Calle K, 123<br>
+                            Provincia: Ciudad K
+                        </li>
+                    </ul>                 
                 </div>
-                <div class="colabora__principal__text">
-                    <p>¿Tienes un artículo y quieres publicarlo en nuestro espacio? Puedes colaborar con nosotros mandándolo a ctrcultura.info@gmail.com siguiendo estos requisitos:</p>
-                    <ul class="colabora__principal__list">
-                        <li>En el email el asunto del correo debe indicar el nombre del autor y título del artículo, junto a una fotografía o idea de imagen destacada.</li>
-                        <li>Archivo: formato Word (.doc o .docx)</li>
-                        <li>Incluir un resumen (extensión breve) previo al texto, sobre la idea que se trabaja en el artículo.</li>
-                        <li>Incluir nombre completo del autor o seudónimo, estudios y/u otras colaboraciones, y enlace a sus redes sociales</li>
-                        <li>Tipografía: Times New Roman 12</li>
-                        <li>Interlineado: 1,5</li>
-                        <li>Referencias bibliográficas: se puede citar tanto en el texto como a pie de página, no importa siempre que el formato sea coherente y no haya variaciones en el texto.</li>
-                        <li>La extensión para los artículos de opinión es de entre 3 y 4 páginas, y para los de divulgación y análisis de entre 5 y 6.</li>
-                    </ul>
-                </div>
-            </div>
-
+			</div>
 
 			<!-- PIE DE PÁGINA -->
 			<footer class="footer" id="footer">
@@ -111,13 +158,13 @@
 					<a href="contacto.php" class="footer__us-text">Contacto</a>
 					<a href="colabora.php" class="footer__us-text">Colabora</a>
 					<a href="index_shop.php" class="footer__us-text">Tienda online</a>
-					<a href="index_librerias.php" class="footer__us-text">Librerias colaboradoras</a>
+					<a href="index_shop.php" class="footer__us-text">Librerias colaboradoras</a>
 				</div>
 				<div class="footer__final">				
 				<p class="footer__name">En Contracultura creemos en el libro flujo de la información. Puede republicar nuestros artículos libremente, de manera impresa o digital, bajo la licencia Creative Commons. &copy; <?= date('Y') ?></p>
 				</div>
 			</footer>
 		</div>
-		<script src="..\js\index.js"></script>
+		<script src="js/index.js"></script>
 	</body>
 </html>

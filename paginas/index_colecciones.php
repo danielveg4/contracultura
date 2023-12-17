@@ -45,7 +45,13 @@
 				</div>
 				<div class="header__logos">
 					<img src="../assets/img/contracultura.png" alt="" />
-					<img src="../assets/img/lupa.png" alt="" />
+					<div class="box">
+						<input
+							class="search"
+							placeholder=" "
+							spellcheck="false"
+						>
+					</div>
 					<img class="user-icon" src="../assets/img/user.png" alt="" id="userIcon" />
 					<ul class="submenu" id="submenu">
 						<form class="submenu__login" action="#" method="post">
@@ -113,7 +119,7 @@
 					<a href="contacto.php" class="footer__us-text">Contacto</a>
 					<a href="colabora.php" class="footer__us-text">Colabora</a>
 					<a href="index_shop.php" class="footer__us-text">Tienda online</a>
-					<a href="index_shop.php" class="footer__us-text">Librerias colaboradoras</a>
+					<a href="index_librerias.php" class="footer__us-text">Librerias colaboradoras</a>
 				</div>
 				<div class="footer__final">				
 				<p class="footer__name">En Contracultura creemos en el libro flujo de la información. Puede republicar nuestros artículos libremente, de manera impresa o digital, bajo la licencia Creative Commons. &copy; <?= date('Y') ?></p>

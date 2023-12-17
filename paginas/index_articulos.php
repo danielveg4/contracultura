@@ -45,7 +45,13 @@
 				</div>
 				<div class="header__logos">
 					<img src="../assets/img/contracultura.png" alt="" />
-					<img src="../assets/img/lupa.png" alt="" />
+					<div class="box">
+						<input
+							class="search"
+							placeholder=" "
+							spellcheck="false"
+						>
+					</div>
 					<img class="user-icon" src="../assets/img/user.png" alt="" id="userIcon" />
 					<ul class="submenu" id="submenu">
 						<form class="submenu__login" action="#" method="post">
@@ -71,18 +77,17 @@
 					<div class="article">
 						<img class="article__img" src="../assets/img/kautsky.jpeg" />
 						<div class="article__info">
-							<h2>Kautsky, el socialismo y la teoría del valor (comentario)</h2>
+							<a class="article__link" href="art-kautsky.php">Kautsky, el socialismo y la teoría del valor (comentario)</a>
 							<p>Lo que puede leerse a continuación es la traducción deuna breve reseña que Karl Kautsky publicara en Die Neue Zeit allá por 1885. Leerlo es una cuestión que apela, no tanto al imperativo de evaluarsu figura con magnanimidad una que podrá despertar las impatía de unos y el odio fulgurante de otros, sino, más bien, al rigor que se le presupone a quien se inmiscuya en el legado intelectual de una tradición de la que nos reconocemos herederos</p>
-							<a href="" class="autor">Álex Fernández</a>
+							<h4 class="autor">Álex Fernández</h4>
 						</div>
 					</div>	
 					<div class="article">
 						<img class="article__img" src="../assets/img/biden.jpeg" />
 						<div class="article__info">
-							<h2>Las consecuencias económicas del neokeynesianismo</h2>
-							<p>Tras casi cuatro décadas de ideología de libre mercado, la política industrial ha regresado a Estados Unidos en forma de un presidente octogenario que apenas sabe en qué año estamos. En palabras de la administración Biden, ha llegado la hora de una «estrategia industrial americana moderna». Hace apenas cinco años, la mayoría de los políticos y expertos habrían tachado de herejía semejante política económica.</p>
-
-							<a href="" class="autor">Jamie Merchant</a>
+							<a class="article__link" href="art-neokeyneisianismo.php">Las consecuencias económicas del neokeynesianismo</a>
+							<p>Tras casi cuatro décadas de ideología de libre mercado, la política industrial ha regresado a Estados Unidos en forma de un presidente octogenario que apenas sabe en qué año estamos. En palabras de la administración Biden, ha llegado la hora de una «estrategia industrial americana moderna». Hace apenas cinco años, la mayoría de los políticos y expertos habrían tachado de herejía semejante política económica. Ahora todo ha cambiado.</p>
+							<h4 class="autor">Jamie Merchant</h4>
 						</div>
 					</div>	
 				</div>
@@ -90,17 +95,18 @@
 					<div class="article">
 							<img class="article__img" src="../assets/img/ellen.jpeg" />
 							<div class="article__info">
-								<h2>La separación entre economía y política en Ellen Meiksins Wood</h2>
-								<p>Ellen Meiksins Wood fue una de las pensadoras marxistas más importantes de su generación. Desde los años setenta hasta su muerte en el 2016, la autora desarrolló una obra polifacética. Su punto de partida fue la teoría política, aunque nunca se atuvo a los límites tradicionales que esta disciplina le impuso, sino que la desbordó y accedió a la sociología histórica, entrando así de lleno en el campo de la crítica social. Pese a todo, su proyecto teórico mantuvo siempre una sorprendente coherencia.</p>
-								<a href="" class="autor">Javier Moreno Zacarés</a>
+								<a class="article__link" href="art-meiksinswood.php">La separación entre economía y política en Ellen Meiksins Wood</a>
+								<p>Ellen Meiksins Wood fue una de las pensadoras marxistas más importantes de su generación. Desde los años setenta hasta su muerte la autora desarrolló una obra polifacética. Su punto de partida fue la teoría política, aunque nunca se atuvo a los límites tradicionales que esta disciplina le impuso, sino que la desbordó y accedió a la sociología histórica. Pese a todo, su proyecto teórico mantuvo siempre una sorprendente coherencia.</p>
+
+								<h4 class="autor">Javier Moreno Zacarés</h4>
 							</div>
 						</div>
 					<div class="article">
 						<img class="article__img" src="../assets/img/tronti2.png" />
 							<div class="article__info">
-								<h2>Arrebatar a Tronti de las garras de los salotti buoni</h2>
+								<a class="article__link" href="art-tronti.php">Arrebatar a Tronti de las garras de los salotti buoni</a>
 								<p>Mario Tronti falleció el 7 de agosto, y se han escrito numerosos obituarios, recuerdos y testimonios. Le han nombrado “un gigante”, el “padre del operaísmo”… cierto. Sin embargo, cuando nosotros hablamos de operaísmo y, por tanto, inevitablemente, de él, lo que nos viene a la mente no son cátedras universitarias, seminarios, conferencias, mesas redondas, audífonos compactos, reseñas, nos vienen a la mente asambleas de trabajadores, piquetes duros, empujones incluso entre camaradas... </p>
-								<a href="" class="autor">Pepe del Amo (Traducción)</a>
+								<h4 class="autor">Pepe del Amo (Traducción)</h4>
 							</div>
 					</div>
 				</div>
@@ -108,18 +114,18 @@
 					<div class="article">
 						<img class="article__img" src="../assets/img/katja.jpeg" />
 						<div class="article__info">
-							<h2>¿Qué hacer en tiempos de debilidad?</h2>
+							<a class="article__link" href="art-wagner.php">¿Qué hacer en tiempos de debilidad?</a>
 							<p>Katja Wagner, Lukas Egger & Marco Hamann Nota introductoria: en octubre de 2021 se inició en el denominado “medio social revolucionario” alemán, a través del blog Communaut, un amplio debate sobre estrategia y organización comunista. Esta fue la primera de las aportaciones que animó dicho debate. La misma fue traducida en su día por Freno de Emergencia. Y a esta le sucedieron otras 8 aportaciones más, las cuales pueden encontrarse todas traducidas en el blog Abwerten. </p>
-							<a href="" class="autor">Katja Wagner, Lukas Egger & Marco Hamann</a>
+							<h4 class="autor">Katja Wagner, Lukas Egger & Marco Hamann</h4>
 						</div>
 					</div>	
 					<div class="article">
 						<img class="article__img" src="../assets/img/ilias.png" />
 						<div class="article__info">
-							<h2>La «perversa trinidad» del capitalismo tardío</h2>
+							<a class="article__link" href="art-alami.php">La «perversa trinidad» del capitalismo tardío</a>
 							<p>«La política climática mundial […] es probablemente el único ámbito político que no afecta al clima», observa Tadzio Müller, cofundador del movimiento alemán por la justicia climática Ende Gelände. En su hipérbole, este comentario apunta hacia una verdad crucial: en los más de treinta años transcurridos desde la creación de la Convención Marco de las Naciones Unidas sobre el Cambio Climático, los Estados han fracasado rotundamente a la hora de detener el implacable ascenso de las emisiones mundiales de carbono</p>
 
-							<a href="" class="autor">Ilias Alami</a>
+							<h4 class="autor">Ilias Alami</h4>
 						</div>
 					</div>	
 				</div>
@@ -127,17 +133,17 @@
 					<div class="article">
 						<img class="article__img" src="../assets/img/autonomia.png" />
 						<div class="article__info">
-							<h2>¿Un Partido de la Autonomía?</h2>
+							<a class="article__link">¿Un Partido de la Autonomía?</a>
 							<p>Este capítulo busca explorar, de forma crítica, el debate que tuvo lugar sobre la forma-partido en el seno y alrededor de los grupos de la Autonomía Operaia   a final de los años setenta, cuando dicha área de políticas revolucionarias fue, durante un breve periodo de tiempo, la fuerza dominante entre la extrema izquierda italiana. Habiendo asumido un rol de liderazgo durante las primeras etapas del extraño movimiento de extraños estudiantes del 1977, los autónomos italianos finalmente encontraron un espacio multitudinario para el debate sobre el significado y propósito de la organización política.</p>
-							<a href="" class="autor">Pepe Del Amo (Traducción)</a>
+							<h4 class="autor">Pepe Del Amo (Traducción)</h4>
 						</div>
 					</div>	
 					<div class="article">
 						<img class="article__img" src="../assets/img/lavoro.jpeg" />
 						<div class="article__info">
-							<h2>Sobre la lucha por el salario y la nueva subjetividad obrera</h2>
+							<a class="article__link">Sobre la lucha por el salario y la nueva subjetividad obrera</a>
 							<p>El presente artículo es una traducción de la revista Lavoro Zero, un volante informativo publicado en de Porto Marghera, uno de los muchos centros industriales que existían en la Italia de esos años pero que constituye una de las experiencias políticas de base decisivas del largo 68 italiano junto con la FIAT de Turín y la Pirelli en Milán, el cual comenzó su andanza entre 1973-1974, sirviendo órgano de expresión de la asamblea de lucha del centro petroquímico, para después durante 1976-1979 convertirse en el giornale comunista del Veneto. </p>
-							<a href="" class="autor">Lavoro Zero</a>
+							<h4 class="autor">Lavoro Zero</h4>
 						</div>
 					</div>	
 				</div>
@@ -165,7 +171,7 @@
 					<a href="contacto.php" class="footer__us-text">Contacto</a>
 					<a href="colabora.php" class="footer__us-text">Colabora</a>
 					<a href="index_shop.php" class="footer__us-text">Tienda online</a>
-					<a href="index_shop.php" class="footer__us-text">Librerias colaboradoras</a>
+					<a href="index_librerias.php" class="footer__us-text">Librerias colaboradoras</a>
 				</div>
 				<div class="footer__final">				
 					<p>Contracultura es un medio de divulgación y producción teórica con la intención de poder ser leído por amplias capas de la sociedad sin perder ni un ápice de rigor académico. Nuestro equipo gestor está conformado por estudiantes de posgrado del ámbito de la Ciencia Política y estudiantes egresados de grados universitarios como Ciencias Políticas, Economía y Psicología.</p>
