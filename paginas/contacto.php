@@ -33,7 +33,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="index_shop.php" title="Shop">
+								<a href="index_tienda.php" title="Shop">
 								Tienda
 								</a>
 							</li>
@@ -128,7 +128,7 @@
 					<a href="index_nosotrxs.php" class="footer__us-text">Consejo editorial</a>
 					<a href="contacto.php" class="footer__us-text">Contacto</a>
 					<a href="colabora.php" class="footer__us-text">Colabora</a>
-					<a href="index_shop.php" class="footer__us-text">Tienda online</a>
+					<a href="index_tienda.php" class="footer__us-text">Tienda online</a>
 					<a href="index_librerias.php" class="footer__us-text">Librerias colaboradoras</a>
 				</div>
 				<div class="footer__final">				

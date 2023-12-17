@@ -56,7 +56,7 @@
 					<ul class="submenu" id="submenu">
 						<div id="login" class="block_central">
 							<?php if(!isset($_SESSION['identity'])): ?> 
-								<form class="submenu__login" action="<?= base_url ?>login/login" method="post">
+								<form class="submenu__login" action="<?= base_url ?>usuario/login" method="post">
 									<label for="email">Email</label>
 									<input type="email" name="email" />
 									<label for="password">Contraseña</label>
@@ -70,11 +70,11 @@
 								<?php if(isset($_SESSION['admin'])):?>				
 									<li><a href="<?=base_url?>Producto/gestion">Gestionar productos</a></li>
 									<li><a href="<?=base_url?>Pedido/gestion">Gestionar pedidos</a></li>
-									<li><a href="<?=base_url?>login/logout">Cerrar sesión</a></li>
+									<li><a href="<?=base_url?>usuario/logout">Cerrar sesión</a></li>
 								<?php endif; ?>			
 								<?php if(isset($_SESSION['identity'])): ?> 
 									<a href="<?=base_url?>views/carrito.php">Ver Carrito</a>
-									<li><a href="<?=base_url?>login/logout">Cerrar sesión</a></li> 
+									<li><a href="<?=base_url?>usuario/logout">Cerrar sesión</a></li> 
 								<?php else: ?> 
 									<li><a href="<?= base_url ?>usuario/registro">Regístrate aquí</a></li>
 								<?php endif; ?> 

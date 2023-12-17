@@ -888,6 +888,13 @@ font-weight: 700;
   background-color: white;
 }
 
+@media (max-width: 385px) {
+  .collection-white{
+    width: 335px;
+    height: 335px;
+  }
+}
+
 .collection-white:hover {
   transform: scale(1.03);
 }
@@ -924,6 +931,15 @@ font-weight: 700;
   gap: 2rem;
 }
 
+@media (max-width: 1150px) {
+  .shop__collection-details{
+    width: 100%;
+    padding: 0rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    align-items:center;
+  }
+}
 
 
 .shop__collection-description{
@@ -980,6 +996,8 @@ font-weight: 700;
   margin-bottom: -8rem;
 }
 
+
+
 .tienda__collection{
   display: flex;
   flex-direction: column;
@@ -992,13 +1010,15 @@ font-weight: 700;
   margin-bottom: 3rem;
   border: 1px solid var(--principal);
   border-left: none;
-  background-color: white;
 }
 
 @media (max-width: 1150px) {
   .shop__collection-container{
     flex-direction: column;
-    align-items:flex-start;
+    align-items:center;
+    border-left: 1px solid var(--principal);
+    border-top: none;
+    max-width: 385px;
   }
 }
 
@@ -1057,6 +1077,14 @@ font-weight: 700;
   margin-bottom: -7rem;
   margin-top: -5rem;
 }
+
+@media (max-width:450px) {
+  .footer{
+    padding: 1.5rem;
+  }
+}
+
+
 .footer__about{
   display: flex;
   flex-direction: row;
@@ -1119,8 +1147,18 @@ font-weight: 700;
   margin-top: 2rem;
   margin-left: -7rem;
   margin-right: -7rem;
-
 }
+
+
+@media (max-width:450px) {
+  .footer__final{
+    padding: 1rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+}
+
+
 .footer__name{
   color: white;
   font-size: 1rem;
@@ -1319,6 +1357,7 @@ font-weight: 700;
   margin-top: 10rem;
   margin-bottom: 4rem;
 }
+
 .colabora__principal__title{
   align-items: flex-start;
   justify-content: center;
@@ -1364,7 +1403,15 @@ font-weight: 700;
   padding: 1.5rem;
 }
 
-section {
+@media (max-width: 770px) {
+  .contact__container{
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+.section {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
@@ -1372,8 +1419,17 @@ section {
   justify-content: center;
 }
 
+
+
 .form {
   padding-right: 3rem;
+}
+
+@media (max-width: 770px) {
+  .form{
+    padding-right: 0rem;
+    width: 340px;
+  }
 }
 
 .form__title {
@@ -1394,6 +1450,12 @@ section {
   background-color: white;
   border-radius: 1.5rem;
   overflow: hidden;
+}
+
+@media (max-width: 770px) {
+  .form__animation{
+    display: none;
+  }
 }
 
 form {
