@@ -6,8 +6,8 @@ const toggleMenu = () => {
         const burgerMenu = document.querySelector(".menu-icon");
         const src = burgerMenu.getAttribute("src");
     
-        const isBurger = src === "assets/img/burger-menu.svg";
-        const iconName = isBurger ? "assets/img/close.svg" : "assets/img/burger-menu.svg";
+        const isBurger = src === "<?=base_url?>assets/img/burger-menu.svg";
+        const iconName = isBurger ? "<?=base_url?>assets/img/close.svg" : "<?=base_url?>assets/img/burger-menu.svg";
     
         burgerMenu.setAttribute("src", iconName);
     
