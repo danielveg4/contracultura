@@ -713,7 +713,7 @@ font-weight: 700;
   flex-direction: column;
   margin-top: -1.5rem;
   width: 100%;
-  background-color: var(--principal);
+  background-color: white;
 }
 
 
@@ -756,6 +756,13 @@ font-weight: 700;
   margin-left: 7rem;
   margin-right: 7rem;
   margin-top: 11rem;
+}
+
+@media (max-width: 600px) {
+  .articulo__container{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
 }
 
 .articulo__container img{
