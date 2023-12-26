@@ -1,7 +1,7 @@
 <IfModule mod_rewrite.c> # Módulo de apapche
 # Activar rewrite
 RewriteEngine on 
-ErrorDocument 404 http://localhost/phpymysqlonline/proyecto-php-poo/error/index
+ErrorDocument 404 http://contrao.cluster030.hosting.ovh.net/cc_avanzada/
 # que reescriba las reglas de escritura pero que no sea un directorio, ni un fichero
 RewriteCond %{SCRIPT_FILENAME} !-d 
 RewriteCond %{SCRIPT_FILENAME} !-f 
