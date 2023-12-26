@@ -1298,6 +1298,46 @@ body {
   color: var(--principal);
 }
 
+.footer__us-text {
+  color: var(--principal);
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-weight: 500;
+  background-image: linear-gradient(to right,
+          var(--secundary),
+          var(--secundary) 50%,
+          var(--principal) 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 3px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.2s ease-in-out;    
+}
+
+.footer__us-text:before {
+  content: '';
+  background: var(--secundary);
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer__us-text:hover {
+  background-position: 0;
+}
+
+.footer__us-text:hover::before {
+  width: 100%;
+}
+
 .us__authors{
   display: flex;
   flex-direction: column;
