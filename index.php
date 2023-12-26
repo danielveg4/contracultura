@@ -2,7 +2,7 @@
 session_start(); // para tener la sesión inciada en nuestro proyecto
 
 require_once 'autoload.php';
-require_once 'config/Database.php'; // carganis el fichero de conexión a la DB
+require_once 'config/db.php'; // carganis el fichero de conexión a la DB
 require_once 'config/parameters.php'; // para cargar las constantes que hemos declarado y que utilizaremos
 // a lo largo del proyecto como base_url
 require_once 'helpers/utils.php';

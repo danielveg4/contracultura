@@ -15,7 +15,7 @@
   </head>
 	<body>
 		<div id="container">
-			<!-- CABECERA -->>
+			<!-- CABECERA -->
 			<header id="header" class="header">
         		<div class="menu__wrapper">
 					<div class="menu__bar">
@@ -40,11 +40,10 @@
 						</ul>
 					</div>
     			</div>
-				<div class="header__start">
-					<h1 class="header__name"><a href="index_maqueta.php">contracultura.cc</a></h1>
+				<div class="header__up">
+					<h1 class="header__up-name"><a href="index_maqueta.php">contracultura.cc</a></h1>
 				</div>
 				<div class="header__logos">
-					<img src="../assets/img/contracultura.png" alt="" />
 					<div class="box">
 						<input
 							class="search"
@@ -67,9 +66,6 @@
 					</ul>
 				</div>
     		</header>
-			<div class="header__up">
-				<h1 class="header__up-name"><a href="index_maqueta.php">contracultura.cc</a></h1>
-			</div>
 
 			<!--  CONTENIDO CENTRAL -->
 			<div class="articulo__container">
@@ -83,7 +79,7 @@
                         <p>El objetivo de la intervención de Kautsky es demostrar, frente a la arbitrariedad de la versión que ofrece Gustav Groß, la unidad indisociable de las dimensiones científico-sistemática y la puramente política de la obra de Marx. Tal y como la entiende Kautsky, esta ha de servir, no sólo para comprender las leyes económicas que gobiernan el mundo capitalista, sino, sobre todo, para deducir de esta comprensión la necesidad de transformarlo en un sentido revolucionario. Es aquí donde reside, a mi juicio, lo verdaderamente interesante. ¿Cómo argumenta Marx la necesidad de esta revolución social? ¿Cómo deducir racionalmente de las leyes de la sociedad la transformación de su estructura económica? En definitiva, ¿cómo puede la crítica de la economía política fundamentar nuestra acción política?</p>
                         <p>Kautsky parece tener claro, ante todo, que el materialismo histórico no se hace cargo de ningún tipo de prescripción normativa. No impone ningún deber sobre la historia, sino que constata en ella hechos y tendencias. Y en el examen de esta cuestión introduce algunas apreciaciones sobre la teoría del valor, de la que Kautsky afirma que “no tiene nada que ver con el socialismo”.Esta afirmación revela algunas asunciones más o menos extendidas sobre el sentido de la teoría del valor de Marx. Si Kautsky es tajante al afirmar que esta no tiene nada que ver con el socialismo es porque entiende que su función es constatar cómo se produce el valor en la sociedad capitalista y, a lo sumo, constatar también que el valor contiene implícita una relación de explotación. Como se sabe, este presupone una relación de explotación de clase sostenida sobre la extracción de plusvalor: los asalariados trabajan para el capital durante más tiempo del necesario para reproducir su propia fuerza de trabajo. Kautsky, correctamente, quiere señalar que la diferencia entre salario y plusvalor no puede, por sí misma, fundamentar la necesidad de una revolución comunista. Y no puede por la sencilla razón de que la diferencia entre trabajo necesario y plustrabajo, objetivados en salario y plusvalor, sólo aparece como criterio de transformación social desde una perspectiva moral, una perspectiva para la que aquella diferencia resulta injustasólo porque subjetivamente presupone un criterio abstracto de justicia: el de la identidad o igualdad entre el tiempo de trabajo aportado y el producto retribuido, fundamento de todas las ilusiones sobre “el fruto íntegro del trabajo” de las que hablara Marx en sus glosas al programa del partido obrero alemán (1979).</p>
                     </div>
-                    <div class="articulo__text"><i>"Los peculiares vicios de su lectura, el énfasis o infra- estimación de determinados aspectos de la teoría de Marx, al margen del que pudiera ser su valor científico intrínseco, iban a configurar un cierto marco conceptual que acabaría per- meando la atmósfera ideológica del socialismo de finales del siglo XIX y principios del XX"</i></div>
+                    <div class="articulo__text"><i>"Los peculiares vicios de su lectura, el énfasis o infraestimación de determinados aspectos de la teoría de Marx, al margen del que pudiera ser su valor científico intrínseco, iban a configurar un cierto marco conceptual que acabaría permeando la atmósfera ideológica del socialismo de finales del siglo XIX y principios del XX"</i></div>
                 </div>
                 <p>La teoría del valor, una vez se entiende como una teoría limitada a explicar el origen del valor de las mercancías y el secreto de la explotación, no puede fundamentar la necesidad de transitar al socialismo, una necesidad que no es moral, sino histórica. En consecuencia, todavía restaría señalar, según plantea Kautsky citando a Engels, cuál es la razón en la cosa misma, o sea, el factor de desarrollo interno al modo de producción que justifica el comunismo objetivamente, y no en relación a un ideal moralista de justicia. Este factor interno y objetivo sería el colapso inevitable del modo de producción capitalista. </p>
                 <p>Kautsky tiene razón en ambas cuestiones por separado: por un lado, en que la “injusticia” de la explotación proporciona sólo un motivo subjetivo que, por ende, como razón resulta insuficiente, arbitraria o “ideológica”; por otro, tiene razón en que la motivación objetiva y racional es el colapso histórico del capitalismo como modo de producción. Sin embargo, su comprensión torcida de la teoría del valor de Marx no permite comprender la relación interna entre ambos aspectos, la relación entre valor (tiempo de trabajo cristalizado), explotación (extracción de plusvalor) y revolución o socialismo (crisis histórica del modo de producción capitalista). Sostengo, contra Kautsky, que la teoría de Marx no niega el vínculo entre valor y socialismo, sino que, por el contrario, trata de demostrar que en el valor ha de estar contenido, al menos de manera implícita, el despliegue histórico que conduce de la actual relación de explotación de clase a la sociedad que distribuye el tiempo total de trabajo conforme a fines racionales. Esto supone que la comprensión limitada de la teoría del valor compromete igualmente la conceptualización del colapso del capitalismo y, por ende, la unidad entre sistema e historia, economía y política, que Kautsky quiere defender en su reseña. Intentaré exponer esta idea en los párrafos que siguen.</p>

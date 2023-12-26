@@ -15,11 +15,11 @@
   </head>
 	<body>
 		<div id="container">
-			<!-- CABECERA -->>
+			<!-- CABECERA -->
 			<header id="header" class="header">
         		<div class="menu__wrapper">
 					<div class="menu__bar">
-						<img class="menu-icon" src="assets/img/burger-menu.svg" title='Burger Menu' alt='Burger Menu'
+						<img class="menu-icon" src="../assets/img/burger-menu.svg" title='Burger Menu' alt='Burger Menu'
 						onclick="toggleMenu(this)">
 						<ul class="navigation">
 							<li>
@@ -40,11 +40,10 @@
 						</ul>
 					</div>
     			</div>
-				<div class="header__start">
-					<h1 class="header__name"><a href="#">contracultura.cc</a></h1>
+				<div class="header__up">
+					<h1 class="header__up-name"><a href="index_maqueta.php">contracultura.cc</a></h1>
 				</div>
 				<div class="header__logos">
-					<img src="../assets/img/contracultura.png" alt="" />
 					<div class="box">
 						<input
 							class="search"
@@ -67,9 +66,6 @@
 					</ul>
 				</div>
     		</header>
-			<div class="header__up">
-				<h1 class="header__up-name"><a href="index_maqueta.php">contracultura.cc</a></h1>
-			</div>
 
 			<!--  CONTENIDO CENTRAL -->
 			<div class="principal" id="central">

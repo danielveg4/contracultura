@@ -15,7 +15,7 @@
   </head>
 	<body>
 		
-			<!-- CABECERA -->>
+			<!-- CABECERA -->
 			<header class="header">
         		<div class="menu__wrapper">
 					<div class="menu__bar">
@@ -40,11 +40,10 @@
 						</ul>
 					</div>
     			</div>
-				<div class="header__start">
-					<h1 class="header__name">contracultura.cc</h1>
+				<div class="header__up">
+					<h1 class="header__up-name">contracultura.cc</h1>
 				</div>
 				<div class="header__logos">
-					<img src="<?=base_url?>assets/img/contracultura.png" alt="" />
 					<div class="box">
 						<input
 							class="search"
@@ -84,6 +83,3 @@
 				</div>
 
     		</header>
-			<div class="header__up">
-				<h1 class="header__up-name">contracultura.cc</h1>
-			</div>

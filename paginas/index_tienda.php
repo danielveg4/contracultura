@@ -15,7 +15,7 @@
   </head>
 	<body>
 		<div id="container">
-			<!-- CABECERA -->>
+			<!-- CABECERA -->
 			<header id="header" class="header">
         		<div class="menu__wrapper">
 					<div class="menu__bar">
@@ -33,18 +33,17 @@
 								</a>
 							</li>
 							<li>
-								<a href="paginas/index_tienda.php" title="Shop">
+								<a href="index_tienda.php" title="Shop">
 								Tienda
 								</a>
 							</li>
 						</ul>
 					</div>
     			</div>
-				<div class="header__start">
-					<h1 class="header__name"><a href="index_maqueta.php">contracultura.cc</a></h1>
+				<div class="header__up">
+					<h1 class="header__up-name"><a href="index_maqueta.php">contracultura.cc</a></h1>
 				</div>
 				<div class="header__logos">
-					<img src="../assets/img/contracultura.png" alt="" />
 					<div class="box">
 						<input
 							class="search"
@@ -67,9 +66,6 @@
 					</ul>
 				</div>
     		</header>
-			<div class="header__up">
-				<h1 class="header__up-name"><a href="index_maqueta.php">contracultura.cc</a></h1>
-			</div>
 
 			<!--  CONTENIDO CENTRAL -->
 			<div class="shop__principal">
