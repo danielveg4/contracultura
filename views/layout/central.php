@@ -75,8 +75,4 @@
 						<div class="principal__articles__underline"></div>
 					</a>
 				</div>
-				<div class="principal__collections">
-					<a class="principal__collections__title">
-						<h2>Colecciones</h2>
-					</a>
 

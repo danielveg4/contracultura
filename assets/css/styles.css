@@ -1032,6 +1032,13 @@ body {
   margin-top: -5rem;
   margin-bottom: 0rem;
 }
+
+.shop__principal-p{
+  margin: 7rem;
+  margin-top: -5rem;
+  margin-bottom: 0rem;
+}
+
 .shop__collection{
   display: flex;
   flex-direction: column;

@@ -1,6 +1,6 @@
 
 			<!--  CONTENIDO CENTRAL -->
-			<div class="shop__principal">
+			<div class="shop__principal-p">
                 <div class="tienda__collection" id="central">
 					<div class="shop__collection-container">
 						<div class="collection-white">
