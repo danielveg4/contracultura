@@ -828,12 +828,22 @@ body {
 }
 
 .articulo__container p{
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   line-height: 1.3rem;
-  font-weight: 400;
   color: var(--secundary);
   text-align:justify;
   margin-bottom: 0.5rem;
+  font-family: Georgia, serif;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  .articulo__container p{
+    font-weight: 400;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
 }
 
 .articulo__line{
@@ -1056,6 +1066,34 @@ body {
 .shop__principal{  
   margin: 0rem;
   margin-top: -5rem;
+}
+
+.us__principal{  
+  margin: 7rem;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .us__principal{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin: 0rem;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .us__principal__title{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    line-height: 2rem;
+  }
 }
 
 .shop__collection{
@@ -1331,6 +1369,23 @@ body {
   margin-right: 2rem;
 }
 
+@media (max-width:450px) {
+  .us__text{
+    max-width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0rem;
+  }
+}
+
+@media (max-width:450px) {
+  .us__texto{
+    margin-bottom: -2rem;
+  }
+}
+
 .footer__us-text{
   margin-top: 2rem;
   gap: 5rem;
@@ -1384,11 +1439,20 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: -2rem;
+  margin-top: 2rem;
   padding-bottom: 5rem;
   padding-left: 5rem;
   padding-right: 5rem;
 }
+
+@media (max-width:450px) {
+  .us__authors{
+    padding: 0rem;
+    max-width: 370px;
+  }
+}
+
+
 .us__author{
   display: flex;
   flex-direction: row;
@@ -1401,6 +1465,13 @@ body {
   margin-left: 2rem;
   margin-right: 2rem;
 }
+
+@media (max-width:450px) {
+  .us__author{
+    flex-direction: column;
+  }
+}
+
 .us__author__img{
   position: relative;
   width: 200px;
@@ -1449,12 +1520,31 @@ body {
   justify-content: center;
   margin-left: 3rem;
 }
+@media (max-width:450px) {
+  .us__author__content{
+    width: 370px;
+    margin-left: 0rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
 .us__author__name{
   font-size: 1.2rem;
   font-weight: 600;
   color: var(--principal);
   padding-bottom: 1rem;
 }
+
+@media (max-width:450px) {
+  .us__author__name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .us__author__text{
   font-size: 1rem;
   font-weight: 400;

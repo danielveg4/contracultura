@@ -68,8 +68,8 @@
     		</header>
 
 			<!--  CONTENIDO CENTRAL -->
-			<div class="shop__principal">
-                <div class="shop__principal__title">
+			<div class="us__principal">
+                <div class="us__principal__title">
                     <h1>Consejo editorial</h1>
                 </div>
                 <div class="us__text">
