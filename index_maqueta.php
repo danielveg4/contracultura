@@ -68,7 +68,6 @@
 				</div>
     		</header>
 
-
 			<!--  CONTENIDO CENTRAL -->
 			<div class="principal" id="central">
 				<div class=principal__news>

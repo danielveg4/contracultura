@@ -436,8 +436,7 @@ body {
     align-items: center;
     max-width: 100%;
     margin-bottom: 1rem;
-    max-width: 100%;
-    height: 1600px;
+    height: 1200px;
     margin:0;
     margin-top: 3rem;
     gap: 2rem;
@@ -463,10 +462,10 @@ body {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .article{
     max-width: 350px;
-    height: 500px;
+    height: 370px;
   }
 }
 
@@ -475,10 +474,10 @@ body {
   max-width: 240px;
   height: 100%;
 }
-@media (max-width: 600px) {
+@media (max-width: 450px) {
   .article__img{
     max-width: 170px;
-    height: 500px;
+    height: 370px;
   }
 }
 
@@ -492,12 +491,28 @@ body {
   width: 260px;
 }
 
+@media (max-width: 450px) {
+  .article__info {
+    padding: 0.5rem;
+    padding-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
+
 .article__info p{
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1.5rem;
   color: var(--secundary);
   text-align:inherit;
+}
+
+@media (max-width: 450px) {
+  .article__info p{
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 0rem;
+  }
 }
 
 .article__info a{
@@ -507,7 +522,12 @@ body {
   color: var(--principal);
   cursor: pointer;
   text-decoration: underline;
+}
 
+@media (max-width: 450px) {
+  .article__info a {
+    font-size: 0.9rem;
+  }
 }
 
 .autor{
@@ -545,6 +565,13 @@ body {
   background-size: cover; 
   background-position: center; 
   background-color: #2a3554;
+}
+
+@media (max-width: 450px) {
+  .principal__sale {
+    height: 340px;
+
+  }
 }
 
 .principal__sale h2 {
@@ -1124,6 +1151,7 @@ body {
 @media (max-width:450px) {
   .footer{
     padding: 1.5rem;
+    align-items: center;
   }
 }
 
@@ -1139,6 +1167,9 @@ body {
   .footer__about{
     flex-direction: column;
     margin-bottom: 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
 }
 
@@ -1172,6 +1203,15 @@ body {
 .footer__text{
   color: var(--secundary);
 }
+
+@media (max-width: 600px) {
+  .footer__text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 .footer__us{
   display: flex;
   flex-direction: row;
@@ -1181,8 +1221,9 @@ body {
 @media (max-width: 600px) {
   .footer__us{
     flex-direction: column;
-    align-items:flex-end;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
 .footer__final{
