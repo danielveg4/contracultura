@@ -50,7 +50,7 @@
 							<img class="subarticle__img" src="<?=base_url?>assets/img/katja.jpeg">
 						</div>
 						<div class="subarticle">
-						<img class="subarticle__img" src="<?=base_url?>assets/img/tronti.jpg">
+							<img class="subarticle__img" src="<?=base_url?>assets/img/tronti.jpg">
 							<div class="subarticle__text">
 								<div class="subarticle__title">
 									<h3>Arrebatar a Tronti de las garras de los 'salotti buoni'</h3>
@@ -75,4 +75,5 @@
 						<div class="principal__articles__underline"></div>
 					</a>
 				</div>
+			
 
